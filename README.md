@@ -16,6 +16,30 @@ mock server with using node
   |-app.js                              // APP入口
 ```
 
+# node api测试使用方式
+node版本需要>7.6
+
+node更新方式
+```bash
+# 清除node.js的cache：
+$ sudo npm cache clean -f
+
+# 安装 n 工具，这个工具是专门用来管理node.js版本的
+$ sudo npm install -g n
+
+# 安装最新版本的node.js
+$ sudo n stable
+
+# 安装最新版
+$ sudo n latest
+
+# 查看已安装版本
+$ n
+
+# 版本切换
+$ sudo n x.x.x
+```
+
 # version
 ## v0.0.1
 * 定义路由
